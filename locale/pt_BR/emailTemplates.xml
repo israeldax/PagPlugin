@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * emailTemplateData.xml
+  *
+  * Copyright (c) 2000-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  *
+  * $Id$
+  -->
+<email_texts locale="pt_BR">
+	<email_text key="PAGSEGURO_INVESTIGAR_PAGAMENTO">
+		<subject>Atividade incomum no Pagseguro</subject>
+		<body>Houve uma atividade incomum no Pagseguro.
+Conferencia: {$schedConfName}		
+
+	Motivo:
+		{$motivo}
+
+Informações adicionais:
+{$additionalInfo}
+
+Informações completas da requisição:
+{$postInfo}
+
+Variáveis do Servidor:
+{$serverVars}</body>
+		<description>Email enviado ao administrador do sistema para avisar de um possível problema a ser inspecionado.</description>
+	</email_text>
+	
+	<email_text key="PAGSEGURO_TRANSC_EM_DISPUTA">
+		<subject>Usuário entrou em disputa no Pagseguro</subject>
+		<body>ATENÇÃO: Um Usuário iniciou um processo de disputa no pagseguro.
+		
+Isso significa que houve um problema coma parte financeira.
+Entre em contato com o usuário e tome as atitudes necessárias. 
+
+Informações adicionais:
+{$additionalInfo}
+		</body>
+		<description>Email enviado ao gerente de inscrição avisando que o usuário entrou em disputa no Pagseguro</description>
+	</email_text>
+	
+	<email_text key="PAGSEGURO_TRANSC_CANCELADA">
+		<subject>Pagseguro - Pagamento Cancelado</subject>
+		<body>Seu pagamento não foi aprovado no Pagseguro.
+
+Houve um problema com o seu pagamento do evento {$schedConfName}, por isso sua inscrição foi cancelada. Caso o período de inscrição ainda esteja aberto, é possível realizar o processo de inscrição novamente.
+
+Em caso de dúvidas entrar em contato com a administração do evento.
+</body>
+		<description>Email enviado ao usuário avisando que seu processo de pagamento deu errado.</description>
+	</email_text>
+</email_texts>

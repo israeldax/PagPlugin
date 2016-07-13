@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Localization strings for the pt_BR locale.
+  *
+ -->
+ 
+<locale name="pt_BR" full_name="Português (Brasil)">
+	<message key="plugins.paymethod.pagseguro.displayName">Pagseguro</message>
+	<message key="plugins.paymethod.pagseguro.description"><![CDATA[O usuário será redirecionado para o site do pagseguro, onde poderá realizar o pagamento através de cartão de crédito, boleto e outras formas que o pagseguro disponibilizar.]]></message>
+	<message key="schedConf.registration.landingUnpaid"><![CDATA[Recebemos sua inscrição com sucesso. Enviaremos um e-mail quando seu pagamento for confirmado. Obrigado!]]></message>
+	
+
+	<!-- pagseguro Form -->
+	<message key="plugins.paymethod.pagseguro.title">Pagamento via Pagseguro</message>
+	<message key="plugins.paymethod.pagseguro.warning">Ao clicar em "Ir para o Pagseguro" você será direcionado para o Pagseguro para realizar o pagamento. Após realizada a compra, aguarde a confirmação do pagamento no seu e-mail. Em caso de algum problema entre em contato com os administradores da conferência.</message>
+	<message key="plugins.paymethod.pagseguro.purchase.amount">Preço</message>
+	<message key="plugins.paymethod.pagseguro.purchase.description">Descrição</message>
+	<message key="plugins.paymethod.pagseguro.purchase.button">Ir para o Pagseguro</message>
+	<message key="plugins.paymethod.pagseguro.purchase.warn0">Atenção</message>
+	<message key="plugins.paymethod.pagseguro.purchase.warn1">Caso seja necessário gerar um novo boleto, pague apenas o último boleto gerado.</message>
+	<message key="plugins.paymethod.pagseguro.error">Ocorreu algum erro no processo de compra. Por favor contate o administrador do sistema.</message>
+	
+	<!-- pagseguro Settings Form -->
+	<message key="plugins.paymethod.pagseguro.settings">Configurações do Pagseguro</message>
+	<message key="plugins.paymethod.pagseguro.testmode">Deseja habilitar o ambiente de teste?</message>
+	<message key="plugins.paymethod.pagseguro.settings.curlNotInstalled">Atenção: a biblioteca CURL, para PHP, não está instalada. Suporte aos pagamentos via CC necessitam da biblioteca CURL e não funcionará até que a mesma esteja instalada.</message>
+</locale>
